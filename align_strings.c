@@ -14,6 +14,8 @@ int main(int argc, char *argv[])
 					matches++;
 					if (indentation_point < k)
 						indentation_point = k;
+					if (indentation_point < i)
+						indentation_point = i;
 					break;
 				}
 			}
