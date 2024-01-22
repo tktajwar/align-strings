@@ -1,0 +1,5 @@
+# binary files
+align_strings
+
+# object files
+*.o
