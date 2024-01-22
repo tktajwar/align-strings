@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 
 	for (int i = 1; i < argc; i++) {                              // for each string
 		int align_ch_index = 0; // index of alignment character for this string
-		for (int j = 0; argv[1][align_ch] != argv[i][j] && argv[i][j]; j++) // for each character
+		for (int j = 0; argv[1][align_ch] != argv[i][j]; j++) // for each character
 			align_ch_index++;
 		for (int j = 0; j < (indentation_point - align_ch_index); j++)      // for each space required
 			printf(" ");
