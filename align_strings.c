@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
 	if (align_ch < 0)
 		return 1;
 
+	/* Find the spaces required for each string and print them and the strings */
 	for (int i = 1; i < argc; i++) {                              // for each string
 		int align_ch_index = 0; // index of alignment character for this string
 		for (int j = 0; argv[1][align_ch] != argv[i][j]; j++) // for each character
